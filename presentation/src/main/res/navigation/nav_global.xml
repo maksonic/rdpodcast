@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_global"
+    app:startDestination="@id/onboardingScreen">
+
+    <fragment
+        android:id="@+id/onboardingScreen"
+        android:name="com.maksonic.rdpodcast.presentation.screens.onboarding.OnboardingScreen"
+        android:label="OnboardingScreen" />
+</navigation>
